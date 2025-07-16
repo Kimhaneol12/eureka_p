@@ -1,0 +1,8 @@
+train: C:/Eureka_forklift/yolov7/forkdata/train/images
+val: C:/Eureka_forklift/yolov7/forkdata/valid/images
+
+nc: 2
+names:
+  0: forklift
+  1: person
+

@@ -1,0 +1,17 @@
+# 모든 pt, pkl, 영상, 이미지, numpy 제외
+*.pt
+*.pkl
+*.mp4
+*.avi
+*.jpg
+*.png
+*.npy
+
+# 출력 디렉토리 통째로 제외
+outputs/
+runs/
+danger_data/images/
+danger_data/labels/
+
+# 혹시 있을 캐시/중간 결과
+__pycache__/
