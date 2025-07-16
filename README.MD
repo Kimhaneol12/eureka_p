@@ -2,7 +2,7 @@
 
 아래 링크에서 학습된 YOLOv7 모델 가중치를 다운로드하세요:
 
-- `epoch_079.pt`: [Google Drive 링크](https://drive.google.com/file/d/1AKUEylkQhEE6As2J1ZrSLhD509I8yxy1/view?usp=sharing)
+- `epoch_079.pt`: [Google Drive 링크](https://drive.google.com/file/d/1SqmHp7Onefwhzj-2Yq_LN0puTlV_Cr0A/view?usp=sharing)
 
 다운로드한 파일은 `yolov7/`, `tracking/` 등 각 디렉토리에 적절히 배치하세요.
 
