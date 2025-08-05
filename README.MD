@@ -21,7 +21,7 @@
 | 6          | falling         | 작업자 낙상 또는 누운 상태                |
 
 클래스 2, 3, 4는 다음과 같은 데이터셋 사용
-- `AI Hub 물류창고 내 안전사고 데이터`: (https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&searchKeyword=%EB%AC%BC%EB%A5%98%EC%84%BC&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=510)
+- [AI Hub 물류창고 내 안전사고 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?pageIndex=1&currMenu=115&topMenu=100&srchOptnCnd=OPTNCND001&searchKeyword=%EB%AC%BC%EB%A5%98%EC%84%BC&srchDetailCnd=DETAILCND001&srchOrder=ORDER001&srchPagePer=20&aihubDataSe=data&dataSetSn=510)
 
 아래 링크에서 학습된 YOLOv7 모델 가중치를 다운로드:
 
@@ -33,7 +33,7 @@
 
 ## 위험상황 탐지 실행 방법
 
-`yolov7/` 디렉토리에서 추적하고 싶은 mp4,jpg를를 배치한 후, 해당 위치에서 다음 명령어를 실행하면 탐지를를 시작:
+`yolov7/` 디렉토리에서 추적하고 싶은 mp4, jpg를 배치한 후, 해당 위치에서 다음 명령어를 실행하면 탐지를를 시작:
 
 python detect.py --weights epoch_079.pt --source 3.jpg --img 640 --conf 0.25
 
@@ -41,7 +41,7 @@ python detect.py --weights epoch_079.pt --source 3.jpg --img 640 --conf 0.25
 
 ## 추적 실행 방법 (DeepSORT 기반)
 
-`tracking/` 디렉토리에서 추적하고 싶은 mp4, jpg를를 배치한 후, 해당 위치에서 다음 명령어를 실행하면 추적을 시작:
+`tracking/` 디렉토리에서 추적하고 싶은 mp4, jpg를 배치한 후, 해당 위치에서 다음 명령어를 실행하면 추적을 시작:
 
 python deep_sort_tracking_id2.py --weights epoch_079.pt --source crop.mp4 --names data/forklift.names --classes 0 1
 
