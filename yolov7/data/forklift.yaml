@@ -3,6 +3,11 @@ val: C:/Eureka_forklift/yolov7/forkdata/valid/images
 
 nc: 2
 names:
-  0: forklift
-  1: person
+  0: person
+  1: forklift
+  2: UA-10
+  3: UA-12
+  4: UA-13
+  5: helmet
+  6: falling
 
